@@ -1,0 +1,6 @@
+age=int(input("enter your age: "))
+height=int(input("enter your height: "))
+name=input("enter your name: ")
+print(age>18)
+print(height>180)
+print(name=="gio")

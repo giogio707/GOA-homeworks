@@ -1,11 +1,25 @@
-print(23>36) #True
-print(50>40) #True
-print(12<13) #True
-print(55>54) #True
-print(33<55) #True
+#1
+age = input("enter your age")
+height = input("enter your height")
+age = "5"
+height = "1.54"
+print(1.54 < 5)
+print(5 > 1.54)
 
-print(21>36) #False
-print(50<40) #False
-print(12>13) #False
-print(55<54) #False
-print(33>55) #False
+
+#2
+#== ნიშნავს რომ რაღა უდრის რაღაც რიცხვს.
+#> ეს ნიშნავს რომ პირველი რიცხვი მეტია მეორეზე.
+#< ეს ნიშნავს რომ პირველი რიცხვი მეორეზე ნაკლებია.
+
+
+#3
+age = input("enter your age")
+height = input("enter your height")
+print(age)
+print(height)
+print(5 + 1.54)
+print(5 - 1.54)
+print(5 + 1.54)
+print(5 // 1.54)
+print(5 * 1.54)

@@ -1,2 +1,4 @@
-age = int(input("Enter your number:"))
-if age >=9:
+#1
+number="25156"
+for i in number:
+  print(i)
